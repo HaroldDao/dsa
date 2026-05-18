@@ -14,7 +14,7 @@ struct ele {
 struct poly { // poly: polynomials
     ele *first = NULL;
 
-    void defineP(ele *val) { // polynomial difine
+    void defineP(ele *val) { // polynomial define
         if (val == NULL) return;
 
         val->next = NULL;
